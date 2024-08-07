@@ -1,0 +1,138 @@
+body {
+    background-image: url('background.jpg'); /* Замените на путь к вашему изображению */
+    background-size: cover; /* Изображение будет покрывать весь экран */
+    background-position: center; /* Центрирование изображения */
+    background-repeat: no-repeat; /* Избегаем повторения изображения */
+}
+
+
+/*body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    color: #dcdcdc;
+    margin: 0;
+    padding: 0;
+    background-color: #121212;
+}*/
+
+header {
+    background-color: #1f1f1f;
+    border-radius: 5px;
+    margin: 0 auto;
+    max-width: 844px;
+    color: #f5f5f5;
+    padding: 20px 0;
+    text-align: center;
+    border-bottom: 2px solid #444;       
+}
+.header-content {
+    display: flex; /* Flex-контейнер для содержимого */
+    align-items: center; /* Выравнивание элементов по вертикали по центру */
+    width: 100%; /* Заполняет всю доступную ширину */
+}
+
+.header-text {
+	margin-left: 140px;
+    flex: 1; /* Занимает оставшееся пространство */    
+}
+
+.img-main-photo {
+    width: 150px; /* Ширина изображения */
+    height: auto; /* Сохраняет пропорции изображения */
+    border-radius: 5%; /* Сглаженные края для круглого изображения */
+}
+
+header h1 {
+    margin: 0;
+}
+
+header h2 {
+    margin: 5px 0 0;
+    font-weight: normal;
+    color: #999;
+}
+
+section {
+    padding: 20px;
+    margin: 10px auto;
+    width: 90%;
+    max-width: 800px;
+    background-color: #1f1f1f;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.7);
+    color: #dcdcdc;
+}
+
+.img-skills-postman {
+    width: 60px; 
+    height: auto; 
+}
+.img-skills-yandextracker {
+    width: 60px; 
+    height: auto; 
+}
+.img-skills-dbeaver {
+    width: 60px; 
+    height: auto; 
+}
+.img-skills-testit {
+    width: 60px; 
+    height: auto; 
+}
+
+h3 {
+    border-bottom: 2px solid #444;
+    padding-bottom: 5px;
+    margin-bottom: 10px;
+}
+
+.job h4 {
+    margin: 0;
+}
+
+.job em {
+    font-style: normal;
+    color: #777;
+}
+
+ul {
+    list-style-type: disc;
+    padding-left: 20px;
+}
+
+ul li {
+    margin-bottom: 5px;
+}
+
+a {
+    color: #bb86fc;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+footer {
+    text-align: center;
+    padding: 10px 0;
+    background-color: #1f1f1f;
+    color: #f5f5f5;
+    border-radius: 5px;
+    border-top: 2px solid #444;
+    margin: 0 auto;
+    max-width: 840px;
+}
+
+.img-contact-email{
+    width: 20px;
+    height: auto;
+}
+.img-contact-vk{
+    width: 20px;
+    height: auto;
+}
+.img-contact-tg{
+    width: 20px;
+    height: auto;
+}
